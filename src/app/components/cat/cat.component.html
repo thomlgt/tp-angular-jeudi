@@ -1,0 +1,9 @@
+<div class="card bg-light mb-3" style="max-width: 18rem;">
+    <div class="card-header">Nom : {{cat.nom}}</div>
+    <div class="card-body">
+      <h5 class="card-title">Couleur : {{cat.couleur}} | Age : {{cat.age}} an(s)</h5>
+      <p class="card-text">
+        <button class="btn btn-danger" (click)="deleteCat(cat)">Supprimer</button>
+      </p>
+    </div>
+</div>
